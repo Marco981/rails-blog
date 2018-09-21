@@ -1,2 +1,126 @@
+$navbar-default-bg: #6262ff;
+
+* {
+	font-family: Nunito, sans-serif;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+	float:left;
+	font-size:1.7em;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#logo:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	height:550px;
+	position: relative;
+	z-index: 0;
+}
+
+.jumbotron:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  display: block;
+  background-image: asset-url('unsplash_panorama.jpg');
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px 8px white inset;
+  -webkit-filter: brightness(0.5);
+  filter: hue-rotate(90deg) saturate(0);
+  transition: filter ease-in-out 200ms;
+}
+
+.jumbotron:hover:before {
+	filter: hue-rotate(0) saturate(1);
+  	box-shadow: 0 0 8px 8px white inset;
+}
+
+.jumbotron:hover h1 {
+	color:#ff5600;
+}
+
+
+.jumbotron h1 {
+	color: #FFF;
+	text-shadow: 2px 2px #000;
+	text-align: center;
+	margin-bottom:30px;
+	font-weight:bold;
+	transition: color ease-in-out 200ms;
+}
+
+.btn-xlarge {
+	font-size: 1.7em;
+	background-color: #6262ff;
+	transition: background-color ease-in-out 200ms;
+	border: none;
+}
+
+.btn-xlarge:hover {
+	background-color: #40CC14;
+}
+
+.article-actions {
+	border-top:1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+.description {
+	margin-top:0;
+}
+
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-body {
+	border-top:1px solid #eaeaea;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color:#777;
+}
+
+footer a:hover {
+	color:#222;
+}
+
+footer small {
+	float:left;
+}
+
+footer ul {
+	float: right;
+	list-style:none;
+}
+
+footer ul li {
+	float:left;
+	margin-left: 15px;
+}
