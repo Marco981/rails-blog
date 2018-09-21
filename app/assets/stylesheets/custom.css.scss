@@ -9,7 +9,7 @@ $navbar-default-bg: #6262ff;
 
 #logo {
 	float:left;
-	font-size:1.7em;
+	font-size:1.7rem;
 	color:#fff;
 	text-transform:uppercase;
 	font-weight:bold;
@@ -70,7 +70,7 @@ $navbar-default-bg: #6262ff;
 }
 
 .btn-xlarge {
-	font-size: 1.7em;
+	font-size: 1.7rem;
 	background-color: #6262ff;
 	transition: background-color ease-in-out 200ms;
 	border: none;
@@ -80,9 +80,14 @@ $navbar-default-bg: #6262ff;
 	background-color: #40CC14;
 }
 
+.article-meta-details {
+	border-top:1px solid #eaeaea;
+	margin-top:5px;
+}
+
 .article-actions {
 	border-top:1px solid #eaeaea;
-	padding-top: 5px;
+	padding-top: 1rem;
 }
 
 .description {
@@ -91,7 +96,7 @@ $navbar-default-bg: #6262ff;
 
 .article-title {
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 .article-body {
@@ -122,5 +127,5 @@ footer ul {
 
 footer ul li {
 	float:left;
-	margin-left: 15px;
+	margin-left: 1rem;
 }
