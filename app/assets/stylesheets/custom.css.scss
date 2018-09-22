@@ -129,3 +129,11 @@ footer ul li {
 	float:left;
 	margin-left: 1rem;
 }
+
+
+@media (min-width: 1600px) {
+
+	.container {
+		width: 1600px;
+	}
+}
