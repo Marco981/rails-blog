@@ -41,7 +41,7 @@ $navbar-default-bg: #6262ff;
   top: 0;
   z-index: -1;
   display: block;
-  background-image: asset-url('unsplash_panorama.jpg');
+  background: asset-url('unsplash_panorama.jpg') center/cover no-repeat;
   width: 100%;
   height: 100%;
   box-shadow: 0 0 8px 8px white inset;
@@ -58,7 +58,6 @@ $navbar-default-bg: #6262ff;
 .jumbotron:hover h1 {
 	color:#ff5600;
 }
-
 
 .jumbotron h1 {
 	color: #FFF;
